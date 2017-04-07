@@ -1,1 +1,7 @@
 # dotfiles
+
+- tmux
+- vim
+- powerline
+
+

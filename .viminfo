@@ -8,1888 +8,1077 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/UTF
+~MSle0~/plugins
+
+# Last Substitute String:
+$
 
 # Command Line History (newest to oldest):
 :q!
-:wq
 :q
+:wq
+:NERDTreeToggle
+:NERDTree!
+:NERDTree
 :w
-:redo
-:w tipe.h
-:W
-:w main.c
-:Q
-:Qq
-:?
-:PluginSearch ultisnips
-:PluginSearch complete
-:PluginSearch youcomplete
-:PluginSearch YouCompleteMe
-:helptags ~/.vim/doc
 :PluginInstall
 :source %
-:PluginInstall vim-multiple-cursors
-:PluginSearch vim-multiple-cursors
-:PluginSearch autoclose
-:PluginSearch Cursor
-:PluginSearch Multiple
-:PluginSearch MultiCursor
-:PluginSearch vimmulticursor
-:PluginSearch
-:pluginsearch
-:PluginSearch vimmultiple
-:PluginSearch vim multiple cursor
-:PluginSearch vim-multiple-cursor
-:set wildmenu
-:set showcmd
-:help NERDTree
-:set pastetoggle
-:help IndentLines
-:LeadingSpaceToggle
-:NERDTreeToggle
-:NERDTree help
-:IndentLinesToggle
-:LeadingSpaceEnabled
-:indentLine_leadingSpaceEnabled
-:e .vimrc
-:e Firefox_wallpaper.png
-:IndentLineToggle
-:0111
-:e Music/
-:earlier
-:NERDTree
-:e
-:PluginSearch youcompleteme
+:help syntastic
+:SyntasticInfo
+:SyntasticCheck
+:e /home/iputra/.vimr
+:VimShell
+:SyntasticInfo ruby
+:tabedit /home/iputra/.vimrc
+:tabedit .vimrc
+:VimShellTab
+:SyntasticInfo python
+:highlight SyntasticError
+:highlight SyntasticErrorSign guibg=#0000ff
+:highlight SyntasticErrorSign guibg=#ffffff
+:highlight SyntasticErrorLine guibg=#ffffff
+:highlight SyntasticError guibg=#ffffff
+:highlight SyntasticError guibg=red
+:highlight SyntasticError guibg=blue
+:highlight SyntasticError guibg=white
+:highlight syntastic error guibg=white
+:highlight SyntasticErrorLine guibg=white
+:highlight SyntasticErrorLine guibg=red
+:highlight SyntasticErrorSign guibg=red
+:highlight SyntasticErrorSign guifg=red
+:highlight SyntasticErrorSign gui	
+:e main.py
+:e /home/iputra/.vimrc
+:syntastic_error_symbol = 's'
+:syntastic_error_symbol = '>.<'
+:tabedit main.py
+:SyntasticCheck flog
+:tabedit /tmp/ruby.rb
+:help syntastic-checkers
+:VimShellPop
+:VimShellSendBuffer
+:VimShellCreate
+:echo syntastic#util#system('echo "$PATH"')
+:e ~/.vimrc
+:v
+:source
+:sort
+:VimProcRea
 
 # Search String History (newest to oldest):
-?/UTF
-?/backlight
-?/bind
-?/#h
-?/#
-?/user
+?/plugins
+?/color
+?/syntasticerror
+?/ruby
+?/flog
+?/zsh
+?/plugin
+?/d
+?/input
+?/bg
+?/tabline_bg
+?/tabline
+?/none
+?/ligh
+?/ligh	
+?/dark
+?/paper
+?/dar
+?/dracula
+?/vundle
+? \<hello\>
+?/prefix
+?/.tmux.conf
 ?/username
-? \<unicode\>
-?/showmatch
-?/Arrow
-?/Dir
-?/DirArrow
-?/status
+?/right
+?/.dotfiles
+?/.
+?/split
+?/SPLIt
+?/auto
+?/running
+?/run
+?/f
+?/open
+?/cach
+?/Paper
+? @$
+?/49
+?/204
+?/206
+?/197
+?/42
+?/40
+?/35
+?/34
+?/47
+?/41
+?/21
+?/45
+?/4545
 
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
-@i 0 20
-@test
-@ma
-@mahasiswa
-@/home/iputra/.vim/bundle/c.vim/c-support/codesnippets/
 
 # Input Line History (newest to oldest):
 
 # Registers:
 "0	LINE	0
-	    strcpy(pb->nama,n);
-"1	LINE	0
-	// C recursive function to solve tower of hanoi puzzle
+	puts "hello"
+""1	LINE	0
+	puts "hello"
+	puts "hello"
+	puts "hello"
 "2	LINE	0
-	    L.head = L.tail = NULL;
-	}
-	
-	node* buatNode(int idb, char namab[]){
-	    nb->prev = NULL;
+	asdf ""hdasl
 "3	LINE	0
-	    pb->next = NULL;
-	    pb->prev = NULL;
-	return pb;
-	}
-	
-"4	CHAR	0
-	s != NULL && counter < pos-2){
-	            pb = pb->next;
-	            counter++;
-	        }
-	        if(pos != NULL) {
+	puts "hello"
+"4	LINE	0
+	asdf ""hdasl
 "5	LINE	0
-	          dd  pb = L.head;
+	pust "hal"
 "6	LINE	0
-	    strcpy(pb->nama,n);
-"7	LINE	0
-	    L1 = addDepan(L1,10,"Ikhsan");
-"8	CHAR	0
+	rints "hello"
+"7	CHAR	0
+	prints "hello"
+	prints "hello"
+	prints "hello"
+	prints "hello"
+	prints "hello"
+	prints "hello"
+	prints "hello"
+	p
+"8	LINE	0
 	
-	            p
-"9	CHAR	0
-	
-	llist addBelakang(llist L, int i, char n[]) {
-	    node *nn;
-	    nn = buatNode(i,n);
-	    if(L.head == NULL)
-	        L.head = L
-	
-	
-	}
-""-	CHAR	0
-	Ikhsan Notes
+"9	LINE	0
+	#include <stdio.h>
+"j	CHAR	0
+	jkk1
+"v	CHAR	0
+	jjjj
+"-	CHAR	0
+	o
 
 # File marks:
-'0  1  0  ~/git/dotfiles/.gitignore
-'1  1  0  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/105_stack/stack.c
-'2  1  18  ~/ikhsan/smt02/strukdat/latihan-uts/README.md
-'3  4  0  ~/git/iputra.github.io/README.md
-'4  3  23  ~/git/iputra.github.io/_posts/2017-04-07-git-fundamentals.md
-'5  4  31  ~/git/iputra.github.io/index.html
-'6  1  0  ~/git/iputra.github.io/_config.yml
-'7  1  0  ~/git/iputra.github.io/about.md
-'8  1  0  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/104_sorting and searching algorithm/binary-search.c
-'9  1  0  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/104_sorting and searching algorithm/binary
+'0  1  0  ~/git/dotfiles/antigen.zsh
+'1  1  0  ~/.vimrc
+'2  4  0  ~/NERD_tree_4
+'3  20  26  ~/.vimrc
+'4  1  0  /tmp/[quickrun output]
+'5  133  38  ~/.vimrc
+'6  1  0  /tmp/ruby.rb
+'7  23  13  ~/.vimrc
+'8  64  24  ~/.vimrc
+'9  1  0  /tmp/main.py
 
 # Jumplist (newest first):
--'  1  0  ~/git/dotfiles/.gitignore
--'  1  0  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/105_stack/stack.c
--'  1  18  ~/ikhsan/smt02/strukdat/latihan-uts/README.md
--'  4  0  ~/git/iputra.github.io/README.md
--'  1  0  ~/git/iputra.github.io/README.md
--'  3  23  ~/git/iputra.github.io/_posts/2017-04-07-git-fundamentals.md
--'  1  0  ~/git/iputra.github.io/_posts/2017-04-07-git-fundamentals.md
--'  4  31  ~/git/iputra.github.io/index.html
--'  1  0  ~/git/iputra.github.io/index.html
--'  1  0  ~/git/iputra.github.io/_config.yml
--'  1  0  ~/git/iputra.github.io/about.md
--'  1  0  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/104_sorting and searching algorithm/binary-search.c
--'  1  0  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/104_sorting and searching algorithm/binary
--'  1  0  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/104_sorting algorithm/merge.c
--'  7  1  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/104_sorting algorithm/merge.c
--'  6  19  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/104_sorting algorithm/merge.c
--'  20  0  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/104_sorting algorithm/merge.c
--'  7  6  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/104_sorting algorithm/merge-sort.c
--'  6  19  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/104_sorting algorithm/merge-sort.c
--'  20  0  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/104_sorting algorithm/merge-sort.c
--'  1  0  ~/ikhsan/smt02/strukdat/prt05/hanoi-e.c
--'  7  0  ~/ikhsan/smt02/strukdat/prt05/NERD_tree_1
--'  11  2  ~/ikhsan/smt02/strukdat/prt05/NERD_tree_1
--'  1  0  ~/ikhsan/smt02/strukdat/prt05/NERD_tree_1
--'  8  46  ~/ikhsan/smt02/strukdat/prt05/hanoi.c
--'  21  0  ~/ikhsan/smt02/strukdat/prt05/hanoi.c
--'  1  0  ~/ikhsan/smt02/strukdat/prt05/hanoi.c
--'  7  0  ~/ikhsan/smt02/strukdat/prt05/hanoi.c
--'  9  8  ~/ikhsan/smt02/strukdat/prt05/hanoi.c
--'  1  0  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/102_double linklist/main.c
--'  81  20  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/102_double linklist/function.h
--'  3  7  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/102_double linklist/type.h
--'  1  0  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/102_double linklist/type.h
--'  19  2  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/102_double linklist/NERD_tree_1
--'  49  2  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/102_double linklist/NERD_tree_1
--'  1  4  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/102_double linklist/NERD_tree_1
--'  13  0  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/101_single linklist/NERD_tree_1
--'  39  2  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/101_single linklist/NERD_tree_1
--'  1  0  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/101_single linklist/NERD_tree_1
--'  57  16  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/101_single linklist/function.h
--'  1  0  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/101_single linklist/function.h
--'  1  0  ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/102_double linklist/function.h
--'  11  0  ~/ikhsan/smt02/strukdat/latihan-uts/README.md
--'  9  31  ~/ikhsan/smt02/strukdat/latihan-uts/README.md
--'  1  0  ~/git/iputra.github.io/_posts/2017-04-07-belajar-git.md
--'  4  15  ~/git/iputra.github.io/_posts/2017-04-07-belajar-git.md
--'  7  189  ~/git/iputra.github.io/_posts/2017-04-07-belajar-git.md
--'  1  1  ~/git/iputra.github.io/.gitignore
--'  4  1  ~/ikhsan/smt02/strukdat/latihan-uts/101/NERD_tree_1
--'  7  2  ~/ikhsan/smt02/strukdat/latihan-uts/101/NERD_tree_1
--'  1  0  ~/ikhsan/smt02/strukdat/latihan-uts/101/NERD_tree_1
--'  31  0  ~/ikhsan/smt02/strukdat/latihan-uts/101/function.h
--'  1  0  ~/ikhsan/smt02/strukdat/latihan-uts/101/function.h
--'  12  1  ~/ikhsan/smt02/strukdat/latihan-uts/101/type.h
--'  1  0  ~/ikhsan/smt02/strukdat/latihan-uts/101/type.h
--'  35  0  ~/Documents/casan/casan-6-4.md
--'  1  0  ~/Documents/casan/casan-6-4.md
--'  1  0  ~/Documents/casan/casan-7-4_1.md
--'  4  41  ~/git/daktilo-master/index.html
--'  1  0  ~/git/daktilo-master/index.html
--'  38  0  ~/git/daktilo-master/_posts/2017-04-07-create-blog-with-jekyll.md
--'  1  0  ~/git/daktilo-master/_posts/2017-04-07-create-blog-with-jekyll.md
--'  51  0  ~/git/daktilo-master/_posts/2017-04-07-create-blog-with-jekyll.md
--'  3  0  ~/git/daktilo-master/NERD_tree_1
--'  1  0  ~/git/daktilo-master/NERD_tree_1
--'  7  2  ~/git/daktilo-master/NERD_tree_1
--'  29  17  ~/git/daktilo-master/_config.yml
--'  1  0  ~/git/daktilo-master/_config.yml
--'  126  0  ~/git/daktilo-master/_site/index.html
--'  1  0  ~/git/daktilo-master/_site/index.html
--'  1  0  ~/git/daktilo-master/about.md
--'  18  0  ~/git/daktilo-master/index.html
--'  2  0  ~/git/daktilo-master/_posts/2017-04-07-create-blog-with-jekyll.md
--'  26  0  ~/git/daktilo-master/_posts/2015-09-06-welcome-to-jekyll.markdown
--'  1  0  ~/git/daktilo-master/_posts/2015-09-06-welcome-to-jekyll.markdown
--'  5  0  ~/git/daktilo-master/_posts/2017-04-07-create-blog-with-jekyll.md
--'  3  30  ~/git/daktilo-master/_posts/2017-04-07-create-blog-with-jekyll.md
--'  7  0  ~/git/daktilo-master/_posts/2017-04-07-create-blog-with-jekyll.md
--'  1  0  ~/git/daktilo-master/_posts/create-blog.md
--'  2  0  ~/line
--'  1  0  ~/line
--'  2  66  ~/journey
--'  1  0  ~/journey
--'  1  0  /tmp/iputra/main.c
--'  1  0  /tmp/iputra/__Tagbar__.1
--'  4  4  /tmp/iputra/__Tagbar__.1
--'  5  0  /tmp/iputra/__Tagbar__.1
--'  4  0  /tmp/iputra/NERD_tree_1
--'  9  2  /tmp/iputra/NERD_tree_1
--'  1  0  /tmp/iputra/NERD_tree_1
--'  12  16  /tmp/iputra/main.c
--'  11  37  /tmp/iputra/main.c
--'  16  0  /tmp/iputra/main.c
--'  1  0  /tmp/iputra/tipe.h
--'  261  9  ~/git/polybar/config/polybar
--'  1  0  ~/git/polybar/config/polybar
--'  28  13  ~/git/polybar/config/polybar
--'  3  0  ~/.Xresources
--'  1  0  ~/.Xresources
+-'  1  0  ~/git/dotfiles/antigen.zsh
+-'  1  0  ~/.vimrc
+-'  4  0  ~/NERD_tree_4
+-'  28  2  ~/NERD_tree_4
+-'  1  0  ~/NERD_tree_4
+-'  20  23  ~/.vimrc
+-'  1  0  /tmp/[quickrun output]
+-'  5  0  /tmp/[quickrun output]
+-'  4  0  /tmp/[quickrun output]
+-'  1  0  /tmp/ruby.rb
+-'  133  38  ~/.vimrc
+-'  23  13  ~/.vimrc
+-'  64  24  ~/.vimrc
+-'  137  0  ~/.vimrc
+-'  138  24  ~/.vimrc
+-'  141  0  ~/.vimrc
+-'  86  0  ~/.vimrc
+-'  145  0  ~/.vimrc
+-'  1  0  /tmp/main.py
+-'  6  0  /tmp/main.c
+-'  1  0  /tmp/main.c
+-'  139  23  ~/.vimrc
+-'  5  0  /tmp/main.c
+-'  144  36  ~/.vimrc
+-'  7  0  /tmp/main.c
+-'  8  0  /tmp/main.c
+-'  2  0  /tmp/main.c
+-'  1  0  /tmp/int
+-'  1  0  ~/.vimr
+-'  8  0  ~/.vimrc
+-'  2  0  /tmp/main.py
+-'  134  0  ~/.vimrc
+-'  24  0  ~/.vimrc
+-'  2  0  ~/.vimrc
+-'  136  34  ~/.vimrc
+-'  122  10  ~/.vimrc
+-'  123  0  ~/.vimrc
+-'  63  30  ~/.vimrc
+-'  41  0  ~/.vimrc
+-'  9  0  /tmp/main.c
+-'  4  1  /tmp/main.c
+-'  3  0  /tmp/main.c
+-'  61  28  ~/.vimrc
+-'  1  0  /tmp/NERD_tree_1
+-'  28  2  /tmp/NERD_tree_1
+-'  4  0  ~/.vimrc
+-'  65  0  ~/.vimrc
+-'  53  0  ~/.vimrc
+-'  52  0  ~/.vimrc
+-'  51  0  ~/.vimrc
+-'  50  0  ~/.vimrc
+-'  49  0  ~/.vimrc
+-'  48  0  ~/.vimrc
+-'  47  0  ~/.vimrc
+-'  46  0  ~/.vimrc
+-'  45  0  ~/.vimrc
+-'  44  0  ~/.vimrc
+-'  42  28  ~/.vimrc
+-'  59  25  ~/.vimrc
+-'  40  0  ~/.vimrc
+-'  34  0  ~/.vimrc
+-'  38  57  ~/.vimrc
+-'  22  0  /tmp/[quickrun output]
+-'  21  0  /tmp/[quickrun output]
+-'  1  0  ~/[quickrun output]
+-'  10  0  ~/[quickrun output]
+-'  9  0  ~/[quickrun output]
+-'  1  0  ~/ruby.rb
+-'  1  3  ~/[vimshell] - default
+-'  1  0  ~/.vim/bundle/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim
+-'  57  0  ~/.vim/bundle/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim
+-'  41  32  ~/.vim/bundle/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim
+-'  12  20  ~/.vim/bundle/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim
+-'  53  0  ~/.vim/bundle/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim
+-'  46  0  ~/.vim/bundle/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim
+-'  11  22  ~/.vim/bundle/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim
+-'  47  44  ~/.vim/bundle/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim
+-'  637  4  ~/.vim/colors/PaperColor.vim
+-'  1  0  ~/.vim/colors/PaperColor.vim
+-'  72  4  ~/.vimrc
+-'  2  0  ~/.vim/bundle/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim
+-'  28  181  ~/.tmux-paperlight
+-'  1  0  ~/.tmux-paperlight
+-'  23  33  ~/.tmux-paperlight
+-'  5  0  ~/.tmux-paperlight
+-'  3  0  ~/.tmux.conf
+-'  1  0  ~/.tmux.conf
+-'  1  0  ~/.tmux.com
+-'  27  66  ~/.tmux-wombat
+-'  1  0  ~/.tmux-wombat
+-'  2  0  ~/.tmux.conf
+-'  27  90  ~/.tmux-paperlight
+-'  87  0  ~/.vimrc
+-'  1  0  /tmp/[quickrun output]
+-'  4  0  ~/NERD_tree_4
+-'  28  2  ~/NERD_tree_4
+-'  1  0  ~/NERD_tree_4
+-'  1  0  ~/.vimrc
+-'  4  0  ~/NERD_tree_4
 
 # History of marks within files (newest to oldest):
 
-> ~/git/dotfiles/.gitignore
+> ~/git/dotfiles/antigen.zsh
 	"	1	0
-	^	1	0
-
-> ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/105_stack/stack.c
-	"	1	0
-
-> ~/ikhsan/smt02/strukdat/latihan-uts/README.md
-	"	1	18
-	^	1	19
-	.	1	19
-	+	6	1
-	+	5	22
-	+	9	31
-	+	1	2
-	+	10	0
-	+	11	2
-	+	12	0
-	+	11	0
-	+	1	19
-
-> ~/git/iputra.github.io/README.md
-	"	4	0
-
-> ~/git/iputra.github.io/_posts/2017-04-07-git-fundamentals.md
-	"	3	23
-	^	3	24
-	.	3	23
-	+	3	23
-
-> ~/git/iputra.github.io/index.html
-	"	4	31
-	^	4	32
-	.	4	31
-	+	4	31
-
-> ~/git/iputra.github.io/_config.yml
-	"	1	0
-
-> ~/git/iputra.github.io/about.md
-	"	1	0
-
-> ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/104_sorting and searching algorithm/binary-search.c
-	"	1	0
-
-> ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/104_sorting and searching algorithm/binary
-	"	1	0
-
-> ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/104_sorting algorithm/merge.c
-	"	1	0
-	^	7	2
-	.	7	1
-	+	6	22
-	+	7	1
-
-> ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/104_sorting algorithm/merge-sort.c
-	"	7	6
-	^	7	7
-	.	7	6
-	+	6	22
-	+	7	6
-
-> ~/ikhsan/smt02/strukdat/prt05/hanoi-e.c
-	"	1	0
-
-> ~/ikhsan/smt02/strukdat/prt05/hanoi.c
-	"	8	46
-	^	8	47
-	.	8	21
-	+	1	0
-	+	15	0
-	+	1	18
-	+	8	18
-	+	5	17
-	+	8	21
-
-> ~/ikhsan/smt02/strukdat/prt05/NERD_tree_1
-	"	7	0
-	.	1	0
-	+	1	0
-
-> ~/ikhsan/smt02/strukdat/prt05/hanoi.c.orig
-	"	4	11
-	^	4	12
-	.	4	10
-	+	4	10
-
-> ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/102_double linklist/main.c
-	"	1	0
-	^	2	16
-	.	2	15
-	+	4	17
-	+	5	21
-	+	7	12
-	+	16	0
-	+	10	16
-	+	12	33
-	+	13	0
-	+	14	0
-	+	15	0
-	+	16	0
-	+	12	21
-	+	13	28
-	+	14	25
-	+	13	24
-	+	12	28
-	+	13	30
-	+	14	29
-	+	15	29
-	+	16	0
-	+	15	17
-	+	14	24
-	+	15	24
-	+	17	16
-	+	18	17
-	+	19	25
-	+	20	15
-	+	21	8
-	+	20	15
-	+	14	9
-	+	15	9
-	+	2	15
-
-> ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/102_double linklist/function.h
-	"	81	20
-	^	81	21
-	.	81	20
-	+	64	4
-	+	63	8
-	+	56	11
-	+	57	11
-	+	57	11
-	+	58	15
-	+	59	12
-	+	60	11
-	+	61	11
-	+	62	11
-	+	65	8
-	+	67	0
-	+	68	53
-	+	71	16
-	+	72	27
-	+	73	10
-	+	91	0
-	+	74	27
-	+	76	11
-	+	70	15
-	+	76	18
-	+	75	14
-	+	77	46
-	+	77	24
-	+	77	28
-	+	77	38
-	+	77	25
-	+	77	41
-	+	87	0
-	+	84	53
-	+	87	9
-	+	88	13
-	+	90	0
-	+	89	68
-	+	90	0
-	+	92	8
-	+	95	28
-	+	96	0
-	+	98	24
-	+	102	0
-	+	101	17
-	+	102	5
-	+	103	39
-	+	104	8
-	+	132	0
-	+	106	0
-	+	107	0
-	+	108	12
-	+	109	6
-	+	113	15
-	+	115	30
-	+	120	11
-	+	126	0
-	+	122	0
-	+	129	12
-	+	128	19
-	+	128	19
-	+	132	0
-	+	2	6
-	+	4	1
-	+	6	0
-	+	4	0
-	+	17	0
-	+	11	0
-	+	43	20
-	+	68	15
-	+	95	19
-	+	106	0
-	+	119	11
-	+	107	12
-	+	107	21
-	+	107	23
-	+	120	11
-	+	123	9
-	+	125	9
-	+	126	15
-	+	129	19
-	+	128	26
-	+	127	38
-	+	68	4
-	+	52	31
-	+	45	15
-	+	57	0
-	+	53	32
-	+	54	34
-	+	66	0
-	+	77	25
-	+	81	18
-	+	89	69
-	+	92	0
-	+	17	0
-	+	12	0
-	+	77	16
-	+	81	13
-	+	46	24
-	+	49	4
-	+	48	0
-	+	47	26
-	+	77	24
-	+	81	20
-
-> ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/102_double linklist/type.h
-	"	3	7
-	^	3	8
-	.	3	7
-	+	1	12
-	+	2	11
-	+	3	15
-	+	5	21
-	+	10	16
-	+	11	15
-	+	12	9
-	+	11	9
-	+	12	0
-	+	11	9
-	+	12	14
-	+	5	13
-	+	16	0
-	+	3	14
-	+	13	1
-	+	3	7
-
-> ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/102_double linklist/NERD_tree_1
-	"	19	2
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/102_double linklist/__Tagbar__.1
-	"	6	4
-	.	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-
-> ~/ikhsan/smt02/strukdat/prt03/pusType.h
-	"	1	0
-	^	1	0
-
-> ~/ikhsan/smt02/strukdat/prt03/pusFung.h
-	"	144	0
-	^	177	0
-
-> ~/ikhsan/smt02/strukdat/prt04/fungsi.h
-	"	4	0
-	^	107	0
-	.	4	0
-	+	1	5
-	+	1	0
-	+	1	1
-	+	1	7
-	+	1	3
-	+	1	1
-	+	1	32
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	3
-	+	1	0
-	+	1	30
-	+	1	1
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	18
-	+	1	29
-	+	1	0
-	+	1	0
-	+	1	7
-	+	1	28
-	+	1	0
-	+	1	3
-	+	1	3
-	+	1	3
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	1
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	12
-	+	1	0
-	+	65	3
-	+	11	0
-	+	10	0
-	+	9	0
-	+	9	0
-	+	4	0
-
-> ~/ikhsan/smt02/strukdat/prt04/main.c
-	"	1	0
-
-> ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/101_single linklist/function.h
-	"	13	0
-	^	12	1
-	.	50	0
-	+	55	19
-	+	56	0
-	+	55	39
-	+	57	23
-	+	59	22
-	+	61	9
-	+	73	0
-	+	62	46
-	+	63	53
-	+	64	14
-	+	71	0
-	+	66	30
-	+	69	0
-	+	68	31
-	+	70	26
-	+	71	8
-	+	72	0
-	+	71	26
-	+	74	8
-	+	26	15
-	+	50	0
-
-> ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/101_single linklist/NERD_tree_1
-	"	13	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/101_single linklist/__Tagbar__.1
-	"	4	4
-	.	5	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	5	0
-	+	5	0
-	+	5	0
-	+	5	0
-
-> ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/101_single linklist/main.c
-	"	16	0
-	.	16	0
-	+	7	12
-	+	18	0
-	+	4	17
-	+	5	20
-	+	10	18
-	+	12	39
-	+	16	0
-	+	13	0
-	+	16	0
-	+	16	0
-	+	13	27
-	+	16	27
-	+	16	34
-	+	16	32
-	+	13	34
-	+	18	8
-	+	17	13
-	+	16	0
-	+	15	0
-	+	14	3
-	+	16	0
-
-> ~/ikhsan/smt02/strukdat/prt02/sll.c
-	"	5	0
-	^	13	37
-	.	8	0
-	+	2	0
-	+	13	36
-	+	8	0
-
-> ~/ikhsan/smt02/strukdat/prt02/pusFung.h
-	"	41	0
-	^	1	19
-	.	1	18
-	+	63	18
-	+	2	0
-	+	1	18
-
-> ~/ikhsan/smt02/strukdat/latihan-uts/Struktur Data/101_single linklist/type.h
-	"	14	14
-	^	14	15
-	.	14	14
-	+	14	14
-
-> ~/git/iputra.github.io/_posts/2017-04-07-belajar-git.md
-	"	1	0
-	^	4	16
-	.	4	15
-	+	4	2
-	+	3	20
-	+	4	3
-	+	9	7
-	+	10	0
-	+	15	3
-	+	12	41
-	+	15	0
-	+	12	61
-	+	14	26
-	+	7	190
-	+	8	0
-	+	4	15
-
-> ~/git/iputra.github.io/.gitignore
-	"	1	1
-	.	1	0
-	+	1	0
-
-> ~/ikhsan/smt02/strukdat/latihan-uts/101/function.h
-	"	56	5
-	^	56	6
-	.	56	5
-	+	1	18
-	+	9	0
-	+	1	29
-	+	10	30
-	+	12	23
-	+	16	1
-	+	18	37
-	+	18	38
-	+	19	13
-	+	20	23
-	+	22	22
-	+	24	10
-	+	27	0
-	+	26	20
-	+	30	0
-	+	28	8
-	+	30	0
-	+	31	3
-	+	18	5
-	+	31	12
-	+	32	0
-	+	31	32
-	+	33	23
-	+	35	22
-	+	37	10
-	+	40	0
-	+	39	19
-	+	41	8
-	+	43	0
-	+	31	5
-	+	1	0
-	+	7	0
-	+	1	14
-	+	2	11
-	+	5	8
-	+	44	21
-	+	45	12
-	+	48	23
-	+	52	0
-	+	49	37
-	+	50	39
-	+	52	5
-	+	53	16
-	+	54	1
-	+	55	0
-	+	56	5
-
-> ~/ikhsan/smt02/strukdat/latihan-uts/101/NERD_tree_1
-	"	4	1
-	.	1	0
-	+	1	0
-
-> ~/ikhsan/smt02/strukdat/latihan-uts/101/__Tagbar__.1
-	"	7	4
-	.	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-
-> ~/git/daktilo-master/about.md
-	"	1	0
-	^	10	219
-	.	10	218
-	+	12	20
-	+	8	243
-	+	10	158
-	+	10	161
-	+	10	218
-
-> ~/.tmux.conf.local
-	"	179	0
-	^	160	225
-	.	160	224
-	+	127	37
-	+	127	36
-	+	127	36
-	+	127	36
-	+	150	17
-	+	151	0
-	+	155	0
-	+	151	6
-	+	155	6
-	+	158	148
-	+	164	38
-	+	243	0
-	+	160	190
-	+	169	62
-	+	164	69
-	+	169	56
-	+	164	54
-	+	160	179
-	+	159	0
-	+	158	0
-	+	159	39
-	+	20	45
-	+	35	32
-	+	160	163
-	+	160	0
-	+	160	167
-	+	185	22
-	+	160	209
-	+	159	39
-	+	127	36
-	+	127	0
-	+	126	42
-	+	132	36
-	+	134	37
-	+	160	176
-	+	126	54
-	+	160	224
-	m	71	2
-	n	184	2
 
 > ~/.vimrc
-	"	31	0
-	^	68	28
-	.	68	25
-	+	61	0
-	+	61	12
-	+	62	0
-	+	60	13
-	+	61	20
-	+	1	13
-	+	5	0
-	+	88	28
-	+	83	27
-	+	61	0
-	+	65	18
-	+	62	18
-	+	65	21
-	+	66	38
-	+	66	37
-	+	60	8
-	+	66	0
-	+	65	18
-	+	63	20
-	+	62	0
-	+	63	20
-	+	58	0
-	+	57	1
-	+	56	0
-	+	28	0
-	+	56	1
-	+	68	27
-	+	69	0
-	+	68	25
-	+	63	46
-	+	73	26
-	+	82	0
-	+	73	0
-	+	84	25
-	+	78	22
-	+	88	0
-	+	56	0
-	+	54	0
-	+	70	37
-	+	69	38
-	+	70	37
-	+	78	24
-	+	70	37
-	+	73	0
-	+	73	12
-	+	73	0
-	+	73	0
-	+	75	31
-	+	76	32
-	+	75	22
-	+	76	29
-	+	75	28
-	+	66	0
-	+	70	76
-	+	5	0
-	+	87	0
-	+	7	51
-	+	9	0
-	+	8	43
-	+	70	77
-	+	72	0
-	+	70	0
-	+	69	1
-	+	70	40
-	+	68	25
-	+	70	37
-	+	68	25
-	+	70	40
-	+	68	25
-	+	70	37
-	+	68	25
-	+	70	37
-	+	68	25
-	+	70	37
-	+	68	25
-	+	70	37
-	+	68	25
-	+	70	39
-	+	69	39
-	+	70	39
-	+	69	39
-	+	70	37
-	+	10	10
-	+	68	25
-	+	70	37
-	+	69	52
-	+	72	0
-	+	69	46
-	+	70	37
-	+	70	37
-	+	8	1
-	+	70	40
-	+	69	44
-	+	70	37
-	+	69	49
-	+	70	37
-	+	69	59
-	+	70	41
-	+	69	66
-	+	68	25
-	m	69	0
-
-> /tmp/gem/.vimrc
 	"	1	0
-
-> ~/ikhsan/smt02/strukdat/latihan-uts/101/type.h
-	"	12	1
-	^	12	2
-	.	12	1
-	+	1	14
-	+	16	0
-	+	4	22
-	+	3	18
-	+	4	22
-	+	5	2
-	+	8	8
-	+	8	26
-	+	8	8
-	+	9	16
-	+	11	15
-	+	11	15
-	+	11	15
-	+	12	1
-	+	14	23
-	+	12	1
-
-> ~/Documents/casan/casan-6-4.md
-	"	35	0
-
-> ~/Documents/casan/casan-7-4_1.md
-	"	1	0
-
-> ~/git/daktilo-master/index.html
-	"	4	41
-	^	4	42
-	.	4	21
-	+	4	21
-
-> ~/git/daktilo-master/_posts/2017-04-07-create-blog-with-jekyll.md
-	"	38	0
-	^	38	0
-	.	34	0
-	+	1	20
-	+	1	3
-	+	3	2
-	+	2	11
-	+	3	30
-	+	3	56
-	+	5	0
-	+	3	72
-	+	4	23
-	+	2	0
-	+	2	0
-	+	20	42
-	+	20	42
-	+	50	16
-	+	45	6
-	+	39	0
-	+	40	3
-	+	39	3
-	+	37	3
-	+	33	18
-	+	28	16
-	+	24	26
-	+	20	35
-	+	10	52
-	+	20	0
-	+	25	0
-	+	21	0
-	+	11	0
-	+	29	0
-	+	34	0
-
-> ~/git/daktilo-master/NERD_tree_1
-	"	3	0
-	.	1	0
-	+	1	0
-
-> ~/git/daktilo-master/_config.yml
-	"	29	17
-	^	29	18
-	.	15	17
-	+	2	11
-	+	9	29
-	+	12	24
-	+	13	48
-	+	14	15
-	+	15	17
-
-> ~/git/daktilo-master/_site/index.html
-	"	126	0
-
-> ~/git/daktilo-master/_posts/2015-09-06-welcome-to-jekyll.markdown
-	"	26	0
-
-> ~/git/daktilo-master/_posts/create-blog.md
-	"	1	0
-
-> ~/line
-	"	2	0
-	^	2	67
-	.	2	35
-	+	2	35
-
-> ~/journey
-	"	2	66
-	^	2	67
-	.	2	35
-	+	1	11
-	+	2	35
-
-> /tmp/iputra/main.c
-	"	1	0
-	^	12	17
-	.	12	16
-	+	4	12
-	+	17	9
-	+	7	6
-	+	5	14
-	+	7	19
-	+	9	20
-	+	9	20
-	+	9	22
-	+	15	0
-	+	10	24
-	+	11	36
-	+	12	23
-	+	10	18
-	+	13	21
-	+	11	22
-	+	14	20
-	+	11	37
-	+	2	18
-	+	12	16
-
-> /tmp/iputra/NERD_tree_1
-	"	9	0
-	.	1	0
-	+	1	0
-
-> /tmp/iputra/__Tagbar__.1
-	"	1	0
-	.	5	0
-	+	5	0
-
-> ~/git/polybar/config/polybar
-	"	261	9
-	^	261	10
-	.	58	16
-	+	28	13
-	+	56	17
-	+	58	16
-
-> ~/.Xresources
-	"	3	0
-	^	13	0
-	.	5	0
-	+	1	0
-	+	1	19
-	+	1	0
-	+	1	27
-	+	1	0
-	+	15	2
-	+	3	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	3	0
-	+	4	0
-	+	5	0
-	+	6	0
-	+	7	0
-	+	8	0
-	+	9	0
-	+	10	0
-	+	11	0
-	+	12	0
-	+	13	0
-	+	14	0
-	+	15	0
-	+	5	0
-	+	7	0
-	+	9	0
-	+	11	0
-	+	13	0
-	+	15	43
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	15	0
-	+	13	0
-	+	15	1
-	+	11	0
-	+	9	0
-	+	7	0
-	+	5	0
-
-> ~/.config/polybar/config
-	"	233	14
-	^	52	15
-	.	52	14
-	+	22	26
-	+	99	0
-	+	131	0
-	+	50	0
-	+	49	15
-	+	133	0
-	+	131	0
+	^	20	29
+	.	20	28
+	+	16	13
 	+	17	14
-	+	56	14
-	+	24	0
-	+	205	0
-	+	234	14
-	+	235	15
-	+	276	14
-	+	280	16
-	+	281	16
-	+	282	16
-	+	281	16
-	+	282	16
-	+	283	16
-	+	129	8
-	+	52	14
-	m	24	16
-	n	24	16
-
-> ~/Videos/eksperimen/zen
-	"	8	0
-	^	7	12
-	.	7	11
-	+	5	21
-	+	6	41
-	+	5	24
-	+	2	0
-	+	4	2
-	+	6	0
-	+	4	2
-	+	8	3
-	+	2	0
-	+	3	17
-	+	5	18
-	+	3	16
-	+	5	12
-	+	8	15
-	+	3	18
-	+	8	15
-	+	3	9
-	+	6	44
-	+	7	11
-
-> ~/ikhsan/smt02/file/ORGANISASI KOMPUTER/gundar
-	"	6	15
-	^	6	16
-	.	6	15
-	+	6	15
-
-> ~/Videos/eksperimen/NERD_tree_1
-	"	30	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Videos/eksperimen/zenius
-	"	1	0
-
-> ~/gundar
-	"	6	15
-	^	6	16
-	.	6	15
-	+	2	20
-	+	6	15
-
-> ~/.tmux.conf
-	"	45	0
-	^	42	29
-	.	42	29
-	+	1045	20
-	+	1043	0
-	+	1046	33
-	+	1056	0
-	+	1048	0
-	+	1047	0
-	+	1048	0
-	+	1051	40
-	+	1051	40
-	+	1051	0
-	+	1050	43
-	+	1056	29
-	+	394	4
-	+	1053	42
-	+	1054	38
-	+	1057	0
-	+	1051	0
-	+	1056	0
-	+	1054	0
-	+	1053	0
-	+	1050	0
-	+	1047	0
-	+	1046	0
-	+	1056	0
-	+	1050	0
-	+	1047	0
-	+	1046	0
-	+	1050	30
-	+	1054	0
-	+	1051	40
-	+	1054	0
-	+	1051	35
-	+	1056	0
-	+	1051	0
-	+	1050	0
-	+	1046	0
-	+	1047	0
+	+	20	33
+	+	22	4
+	+	20	0
+	+	19	12
+	+	52	26
+	+	5	0
+	+	2	40
+	+	47	0
+	+	49	7
+	+	46	0
+	+	48	0
+	+	40	0
+	+	55	24
+	+	48	7
+	+	46	7
+	+	46	7
+	+	45	7
+	+	49	7
+	+	50	0
+	+	52	10
+	+	49	0
+	+	115	56
+	+	47	7
+	+	45	7
+	+	46	7
+	+	46	7
+	+	44	7
+	+	48	7
+	+	55	0
+	+	55	6
+	+	55	39
+	+	46	0
+	+	44	0
 	+	42	0
-	+	41	0
-	+	42	38
-	+	47	23
-	+	42	29
-	m	42	34
-	n	135	30
-
-> /etc/lightdm/lightdm.conf
-	"	2	0
-	^	2	15
-	.	2	0
-	+	2	38
-	+	2	0
+	+	55	0
+	+	44	0
+	+	55	0
+	+	43	0
+	+	50	0
+	+	1	0
+	+	2	40
+	+	1	0
+	+	5	0
+	+	116	48
+	+	71	33
+	+	9	18
+	+	71	39
+	+	9	19
+	+	10	0
+	+	71	0
+	+	20	27
+	+	59	25
+	+	1	0
+	+	60	25
+	+	4	0
+	+	61	28
+	+	62	25
+	+	63	30
+	+	132	31
+	+	125	10
+	+	122	10
+	+	134	36
+	+	147	0
+	+	134	37
+	+	136	34
+	+	136	0
+	+	136	35
+	+	138	94
+	+	146	61
+	+	138	110
+	+	146	54
+	+	138	60
+	+	136	0
+	+	133	126
+	+	133	194
+	+	133	0
+	+	134	0
+	+	133	35
+	+	137	0
+	+	135	0
+	+	137	0
+	+	135	35
+	+	137	38
+	+	138	0
+	+	138	60
+	+	140	24
+	+	144	26
+	+	142	40
+	+	144	36
+	+	141	23
+	+	145	23
+	+	143	23
+	+	139	23
+	+	145	0
+	+	138	0
+	+	64	25
+	+	133	38
+	+	20	28
 
 > ~/NERD_tree_1
-	"	1	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/.tmuxrc
-	"	1	0
-
-> ~/git/polybar/build/.tmux.conf.local
-	"	1	0
-
-> ~/ikhsan/.tmux.conf.local
-	"	1	0
-
-> ~/ikhsan/smt02/som/.tmux.conf
-	"	1	0
-
-> ~/ikhsan/smt02/som/NERD_tree_1
 	"	4	0
 	.	1	0
 	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> ikhsan/smt02/strukdat/prt04/fungsi.h
-	"	7	8
-	^	7	9
-	.	7	8
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	11
-	+	1	15
-	+	1	6
-	+	1	0
-	+	1	0
-	+	1	1
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	29
-	+	9	0
-	+	2	19
-	+	3	0
-	+	9	0
-	+	3	0
-	+	9	0
-	+	3	0
-	+	4	24
-	+	4	24
-	+	4	0
-	+	4	0
-	+	9	0
-	+	9	0
-	+	5	0
-	+	6	6
-	+	7	8
-
-> ~/ikhsan/smt02/strukdat/prt04/NERD_tree_1
-	"	1	0
+> ~/NERD_tree_4
+	"	4	0
 	.	1	0
 	+	1	0
 	+	1	0
 	+	1	0
 	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
 
-> ~/ikhsan/smt02/strukdat/prt06/01.c
-	"	1	0
-
-> ~/ikhsan/smt02/strukdat/prt04/__Tagbar__.1
-	"	10	4
-	.	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-
-> ~/ikhsan/smt02/strukdat/prt06/02.c
-	"	1	0
-	^	1	1
-	.	1	0
-	+	1	0
-
-> ~/ikhsan/smt02/strukdat/prt06/03.c
-	"	1	0
-
-> ~/ikhsan/smt02/strukdat/prt06/04.c
+> /tmp/ruby.rb
 	"	2	0
-	^	1	1
-	.	1	0
+	^	2	9
+	.	2	0
+	+	1	16
+	+	1	25
+	+	1	38
 	+	1	0
-	+	12	0
-	+	11	0
+	+	1	7
+	+	1	20
+	+	1	7
+	+	1	8
+	+	1	12
+	+	1	8
+	+	1	11
 	+	1	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	1	10
+	+	2	0
 
-> ~/__Tagbar__.1
-	"	5	4
-	.	6	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-
-> ~/ikhsan/smt02/strukdat/prt07/merge/merge-program.c
+> /tmp/[quickrun output]
 	"	1	0
-	^	69	30
-	.	69	29
-	+	48	14
-	+	55	0
-	+	56	14
-	+	26	49
-	+	9	87
-	+	9	102
-	+	9	102
-	+	12	37
-	+	14	40
-	+	16	19
-	+	18	11
-	+	20	19
-	+	18	11
-	+	12	0
-	+	14	0
-	+	16	0
-	+	17	0
-	+	20	0
-	+	20	19
-	+	20	23
-	+	27	0
-	+	11	0
-	+	10	0
-	+	13	0
-	+	15	0
-	+	18	0
-	+	19	0
-	+	21	0
+	.	5	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 	+	22	0
-	+	7	0
-	+	2	0
-	+	32	0
-	+	35	0
-	+	34	0
-	+	36	0
-	+	40	0
-	+	47	0
-	+	52	0
-	+	53	0
-	+	54	0
-	+	57	0
-	+	60	0
-	+	61	0
-	+	62	0
-	+	59	13
-	+	58	13
-	+	50	13
-	+	49	14
 	+	1	0
-	+	2	0
-	+	2	0
-	+	2	0
-	+	3	10
-	+	3	0
-	+	3	0
-	+	3	0
+	+	22	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	8	0
+	+	1	0
+	+	8	0
 	+	5	0
-	+	3	0
-	+	7	0
-	+	10	25
-	+	9	0
-	+	4	0
-	+	10	46
-	+	10	103
-	+	11	0
-	+	3	0
-	+	4	0
-	+	10	0
-	+	4	0
-	+	6	4
-	+	10	0
-	+	4	0
-	+	6	4
-	+	10	0
-	+	4	0
-	+	6	4
-	+	10	0
-	+	4	0
-	+	6	4
-	+	10	0
-	+	4	0
-	+	6	4
-	+	10	0
-	+	4	0
-	+	3	0
-	+	9	12
-	+	9	0
-	+	9	12
-	+	10	0
-	+	71	0
-	+	69	29
-
-> ~/ikhsan/smt02/strukdat/prt07/merge/main.c.orig
-	"	7	0
-	.	1	0
 	+	1	0
+	+	5	0
 
-> /build/buildd/glibc-2.21/csu/../sysdeps/x86_64/start.S
+> /tmp/main.py
 	"	1	0
+	.	2	0
+	+	1	14
+	+	2	0
+	+	1	12
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	14
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	1	5
+	+	2	13
+	+	2	0
+	+	2	0
 
-> ~/Documents/casan/casan-4-4.md
-	"	1	0
+> /tmp/main.c
+	"	6	0
 	^	1	0
 	.	1	0
-	+	1	0
-	+	1	6
-	+	1	6
+	+	9	0
+	+	8	0
 	+	2	0
-	+	1	10
-	+	1	10
+	+	5	24
+	+	5	0
+	+	5	6
+	+	5	21
+	+	5	0
+	+	8	0
+	+	5	27
+	+	5	0
+	+	8	0
+	+	5	10
+	+	3	0
+	+	5	8
+	+	8	0
+	+	8	0
+	+	8	4
+	+	8	0
+	+	6	19
+	+	7	7
+	+	2	0
 	+	1	0
 
-> ~/NERD_tree_2
-	"	23	0
-	.	1	0
-	+	1	0
+> ~/.vim/bundle/syntastic/doc/syntastic.txt
+	"	195	0
 
-> ~/ikhsan/smt02/strukdat/prt04/fungsi.h:q
+> /tmp/int
 	"	1	0
 
 > ~/.vimr
 	"	1	0
+	^	2	2
+	.	2	2
+	+	2	2
 
-> ikhsan/smt02/strukdat/prt07/merge/merge-program.c
+> /tmp/[vimshell] - default
+	"	72	3
+	^	23	4
+	.	23	4
+	+	1	5
+	+	73	0
+	+	24	6
+	+	52	24
+	+	54	0
+	+	56	0
+	+	64	0
+	+	72	0
+	+	1	7
+	+	2	0
+	+	12	0
+	+	13	13
+	+	15	7
+	+	16	0
+	+	17	0
+	+	19	10
+	+	21	13
+	+	23	4
+
+> /tmp/.vimrc
 	"	1	0
 
-> ~/git/vim-multiple-cursors/NERD_tree_1
-	"	8	0
+> ~/.vim/bundle/syntastic/doc/syntastic-checkers.txt
+	"	5582	7
+
+> /tmp/NERD_tree_1
+	"	1	0
 	.	1	0
 	+	1	0
+
+> ~/.vim/bundle/vim-quickrun/doc/quickrun.txt
+	"	102	22
+
+> ~/ruby.rb
+	"	1	0
+	.	1	0
+	+	7	0
+	+	1	0
+	+	1	0
+	+	4	3
+	+	3	18
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 	+	1	0
 
-> ~/.vim/bundle/vim-autoclose/doc/AutoClose.txt
+> ~/[quickrun output]
+	"	1	0
+	.	10	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	10	0
+	+	1	0
+	+	10	0
+	+	1	0
+	+	1	2
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	10	0
+	+	1	0
+	+	10	0
+
+> ~/.vim/bundle/lightline.vim/autoload/lightline/colorscheme/PaperColor_light.vim
+	"	1	0
+	^	12	0
+	.	41	32
+	+	10	22
+	+	11	25
+	+	47	35
+	+	11	21
+	+	47	49
+	+	11	22
+	+	46	1
+	+	11	22
+	+	46	0
+	+	12	12
+	+	41	33
+	+	12	10
+	+	41	32
+
+> ~/[vimshell] - default
+	"	16	19
+	^	16	20
+	.	16	19
+	+	1	7
+	+	440	11
+	+	442	4
+	+	1	5
+	+	436	5
+	+	438	3
+	+	1	5
+	+	1	0
+	+	1	5
+	+	1	10
+	+	1	31
+	+	1	34
+	+	1	30
+	+	1	0
+	+	1	34
+	+	1	0
+	+	1	25
+	+	1	16
+	+	1	21
+	+	1	0
+	+	1	7
+	+	433	0
+	+	433	0
+	+	1	5
+	+	430	5
+	+	1	11
+	+	428	12
+	+	1	5
+	+	20	17
+	+	422	4
+	+	419	2
+	+	422	5
+	+	427	5
+	+	1	5
+	+	1	0
+	+	1	5
+	+	1	15
+	+	1	5
+	+	1	5
+	+	1	5
+	+	1	5
+	+	1	6
+	+	17	0
+	+	2	18
+	+	4	0
+	+	6	21
+	+	7	0
+	+	8	18
+	+	10	0
+	+	12	20
+	+	13	0
+	+	16	19
+
+> ~/.vim/colors/PaperColor.vim
+	"	637	4
+
+> /usr/share/vim/vim74/doc/options.txt
+	"	938	5
+
+> ~/.tmux-paperlight
+	"	28	181
+	^	28	182
+	.	28	181
+	+	28	185
+	+	27	60
+	+	26	112
+	+	25	109
+	+	28	0
+	+	28	128
+	+	27	63
+	+	28	95
+	+	29	0
+	+	28	156
+	+	29	0
+	+	28	122
+	+	29	0
+	+	28	121
+	+	29	0
+	+	28	157
+	+	27	63
+	+	28	121
+	+	28	0
+	+	27	64
+	+	28	148
+	+	27	0
+	+	28	0
+	+	27	63
+	+	28	121
+	+	27	64
+	+	28	130
+	+	28	0
+	+	28	129
+	+	27	64
+	+	28	94
+	+	25	0
+	+	23	33
+	+	28	157
+	+	29	0
+	+	28	183
+	+	27	55
+	+	28	181
+
+> ~/.tmux.conf
+	"	3	0
+	^	2	34
+	.	2	0
+	+	2	29
+	+	18	0
+	+	7	0
+	+	7	0
+	+	3	0
+	+	14	37
+	+	5	23
+	+	16	18
+	+	2	0
+	+	2	1
+	+	2	33
+	+	2	0
+	+	2	0
+	+	1	0
+	+	2	0
+
+> ~/.tmux.com
 	"	1	0
 
-> ~/.vim/bundle/vim-autoclose/plugin/AutoClose.vim
+> ~/.tmux-wombat
+	"	27	66
+	^	27	56
+	.	27	55
+	+	25	110
+	+	26	114
+	+	29	0
+	+	29	96
+	+	29	200
+	+	28	0
+	+	26	140
+	+	10	26
+	+	28	127
+	+	27	63
+	+	25	108
+	+	25	33
+	+	26	127
+	+	25	118
+	+	25	0
+	+	25	0
+	+	25	121
+	+	3	0
+	+	1	0
+	+	28	109
+	+	26	34
+	+	27	42
+	+	25	122
+	+	28	108
+	+	10	26
+	+	3	41
+	+	3	0
+	+	3	20
+	+	3	0
+	+	3	31
+	+	3	0
+	+	27	55
+
+> ~/.tmux-
 	"	1	0
 
-> ~/.vim/bundle/nerdtree/doc/NERD_tree.txt
-	"	1193	0
-
-> ~/.vim/bundle/indentline/doc/indentLine.txt
-	"	122	0
-
-> ~/NERD_tree_5
+> ~/.vim/bundle/lightline.vim/autoload/lightline/colorscheme/NERD_tree_1
 	"	4	0
 	.	1	0
 	+	1	0
-	+	1	0
 
-> ~/ikhsan/smt02/strukdat/prt07/merge-linklist.c
+> ~/.vim/bundle/lightline.vim/autoload/lightline/colorscheme/.vimrc
 	"	1	0
-	^	17	9
-	.	1	0
-	+	2	21
-	+	2	17
-	+	4	12
-	+	17	9
-	+	10	37
-	+	11	0
-	+	12	0
-	+	13	0
-	+	11	32
-	+	12	32
-	+	13	31
-	+	12	27
-	+	15	13
-	+	17	9
-	+	18	0
+
+> /tmp/rubyscript.rb
+	"	7	0
+	^	7	0
+	.	7	0
+	+	1	0
+	+	24	1
+	+	7	0
+
+> ~/.vim/bundle/vimshell.vim/doc/vimshell.txt
+	"	171	0
+
+> ~/iexe-python@7
+	"	11	0
+	^	11	0
+	.	11	0
 	+	2	0
-	+	1	0
+	+	4	5
+	+	6	0
+	+	8	7
+	+	9	0
+	+	10	9
+	+	11	0
+	+	11	0
 
-> ~/ikhsan/smt02/strukdat/prt07/function.h
-	"	4	6
-	^	1	18
-	.	1	18
-	+	1	30
-	+	1	32
-	+	17	0
-	+	13	27
-	+	15	19
-	+	16	0
-	+	15	1
-	+	16	15
-	+	17	9
-	+	20	45
-	+	28	2
-	+	23	19
-	+	25	7
-	+	28	0
-	+	27	13
-	+	29	8
-	+	32	42
-	+	33	10
-	+	35	19
-	+	37	7
-	+	40	0
-	+	39	13
-	+	40	2
-	+	41	0
-	+	75	0
-	+	1	14
-	+	8	0
+> ~/.vim/bundle/vimproc.vim/[vimshell] - default
+	"	19	9
+	^	19	10
+	.	19	10
+	+	1	13
+	+	3	11
+	+	6	14
 	+	7	14
-	+	8	8
-	+	9	1
-	+	44	21
-	+	45	10
-	+	47	7
-	+	46	7
-	+	47	19
-	+	50	0
-	+	48	39
-	+	50	2
-	+	51	9
-	+	54	43
-	+	72	2
-	+	60	7
-	+	72	0
-	+	61	39
-	+	62	43
-	+	63	8
-	+	69	0
-	+	65	21
-	+	69	3
-	+	67	18
-	+	72	0
-	+	72	2
-	+	74	0
-	+	68	0
-	+	73	8
-	+	1	18
+	+	8	11
+	+	10	12
+	+	12	11
+	+	13	11
+	+	17	12
+	+	19	10
 
-> ~/ikhsan/smt02/strukdat/prt03/sll.c
+> ~/.vim/bundle/vimproc.vim/doc/vimproc.txt
+	"	88	0
+
+> ~/ikhsan/smt02/strukdat/prt07/tugas/test.c
+	"	1	0
+	^	1	20
+	.	2	0
+	+	1	8
+	+	1	19
+	+	2	0
+
+> ~/.vim/bundle/vim-dispatch/doc/dispatch.txt
+	"	167	1
+
+> ~/.vim/bundle/asyncrun.vim/doc/asyncrun.txt
+	"	172	0
+
+> ~/ikhsan/smt02/strukdat/prt07/tugas/DoubleLL.c
+	"	1	1
+
+> ~/ikhsan/smt02/strukdat/prt07/tugas/doubll.c
 	"	1	0
 
-> ~/ikhsan/smt02/strukdat/prt02/prall.c
-	"	51	0
-
-> ~/Documents/casan/casan-2-4.md
-	"	35	0
-	^	35	0
-	.	34	0
-	+	6	127
-	+	9	47
-	+	14	9
-	+	8	18
-	+	15	0
-	+	36	0
-	+	20	45
-	+	28	0
+> ~/ikhsan/smt02/strukdat/prt07/tugas/[quickrun output]
+	"	1	0
+	.	1	0
+	+	64	0
+	+	1	0
+	+	64	0
 	+	32	0
-	+	33	49
-	+	34	0
+	+	1	0
+	+	32	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> ~/ikhsan/smt02/strukdat/prt07/merge/main.c
-	"	7	6
-	^	7	7
-	.	7	6
-	+	6	22
-	+	7	6
+> ~/ikhsan/smt02/strukdat/prt07/tugas/test
+	"	11	0
+	^	11	1
+	.	11	0
+	+	6	5
+	+	6	17
+	+	11	0
+
+> ~/antigen.zsh
+	"	10	0
+	.	10	0
+	+	10	0
+
+> ~/ControlP
+	"	10	0
+	.	2	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	17	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	2	0
+
+> ~/NERD_tree_3
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/.dotfiles-tmux/.tmux.conf
+	"	738	48
+
+> ~/.dotfiles-tmux/.tmux.conf.local
+	"	24	0
+
+> /usr/share/vim/vim74/doc/help.txt
+	"	25	0
+
+> ~/.vim/bundle/nerdtree/doc/NERDTree.txt
+	"	239	0
+
+> ~/.vimrcd
+	"	1	0
+
+> ~/.vim/bundle/ctrlp.vim/doc/ctrlp.txt
+	"	1007	43
+
+> ~/antigen
+	"	1	0
+
+> ~/.vim/bundle/vim-tabbar/autoload/vimtabbar.vim
+	"	90	0
+
+> ~/.vim/bundle/vim-tabbar/plugin/vimtabbar.vim
+	"	3	0
+
+> ~/.vim/bundle/papercolor-theme/colors/.vimrc
+	"	1	0
+
+> ~/.vim/.netrwhist
+	"	1	0
+
+> ~/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-zsh-users-SLASH-zsh-autosuggestions.git/zsh-autosuggestions.zsh
+	"	1	0
+
+> ~/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-oskarkrawczyk-SLASH-honukai-iterm-zsh.git/honukai.itermcolors
+	"	2	0
+	.	46	0
+	+	47	0
+	+	46	0
+
+> ~/wombat
+	"	1	0
+
+> ~/.vim/bundle/tmuxline.vim/autoload/tmuxline/themes/lightline.vim
+	"	1	0
+
+> ~/.vim/bundle/lightline.vim/autoload/lightline/colorscheme/Dracula.vim
+	"	21	0
+
+> ~/.vim/bundle/lightline.vim/autoload/lightline/colorscheme/one.vim
+	"	1	0
+
+> ~/.vim/bundle/.vimrc
+	"	1	0
+
+> ~/is
+	"	1	0

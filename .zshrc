@@ -2,12 +2,11 @@ source $HOME/antigen.zsh
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
-
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="agnoster"
+ZSH_THEME="honukai"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -56,7 +55,7 @@ plugins=(zsh-syntax-highlighting)
 
 # User configuration
 
-  export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+  export PATH="$HOME/.linuxbrew/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -89,15 +88,20 @@ source $ZSH/oh-my-zsh.sh
 # my alias
 alias webpub="cd ~/Public && python -m SimpleHTTPServer 8080"
 alias upload-on="node /home/iputra/git/file-uploader/app.js"
-
-
+alias posting="cd $HOME/git/iputra.github.io/_posts;vim"
+alias jekyll-on="cd $HOME/git/iputra.github.io/;bundle exec jekyll serve"
+alias ⌬="ls"
 # antigen config
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
-
+#antigen theme Mayccoll/oh-my-git-themes liino
 
 # apply configuration of antigen
 antigen apply
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

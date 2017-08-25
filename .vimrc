@@ -1,33 +1,57 @@
+" every changed in this configuration must be reload
+" reload with this command :source $MYVIMRC
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 syntax on
 
-set number
+set number                    " show numbering
+set numberwidth=1
 set laststatus=2
-set t_Co=256
+set t_Co=256                  " use 256 kind of color
 set noshowmode
-set background=dark
+
+" scheme vim
+set background=dark           " you can set light or dark
 colorscheme PaperColor
-set cursorline
-set scrolloff=8
+" colorscheme spacemacs-theme 
+
+set cursorline                " set highlight a row of current cursor
+set scrolloff=8               " auto scrolling before bottom and top as much 8 row
 set wildmenu
+set updatetime=250            " Update delay time for git gutter
 
 " searching 
-set incsearch
-set ignorecase
-set hlsearch
-nnoremap <F4> :nohlsearch<CR>
+set incsearch                 " auto searching without pressing enter
+set ignorecase                " make searching not case sensitive
+set hlsearch                  " highlight all result of searching
+
+" leader mapping
+" change \ to ,
+let mapleader = ","
+
+" mapping keyboard
+nnoremap <F3> :set relativenumber!<CR>
+nnoremap <F4> :IndentLinesToggle<CR>:LeadingSpaceToggle<CR>
 nnoremap <F5> :NERDTreeToggle<CR>
+nmap <C-h> <C-w><C-h>
+nmap <C-j> <C-w><C-j>
+nmap <C-k> <C-w><C-k>
+nmap <C-l> <C-w><C-l>
+map <Leader> <Plug>(easymotion-prefix)
+nnoremap <leader>ri :RunInInteractiveShell<space>
+nnoremap <leader>k :tabnext<CR>
+nnoremap <leader>j :tabprevious<CR>
+nnoremap <leader><space> :nohlsearch<CR>
 
 " split
-set splitbelow
+" set splitbelow 
 set splitright
 
 " tab
 set expandtab                   " Convert tabs into spaces
 set softtabstop=4               " when editing
 set smarttab
-set numberwidth=1
 set laststatus=2
 set tabstop=4
 set shiftwidth=2
@@ -60,13 +84,21 @@ Plugin 'tpope/vim-endwise'
 Plugin 'ervandew/supertab'
 Plugin 'raimondi/delimitmate'
 Plugin 'tpope/vim-fugitive'
-Plugin 'vim-syntastic/syntastic'
+" Plugin 'vim-syntastic/syntastic'
 Plugin 'ngmy/vim-rubocop'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-vinegar'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'hzchirs/vim-material'
+Plugin 'Yggdroot/indentLine'
+Plugin 'majutsushi/tagbar'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-" configuration
+" CONFIGURATION
+
+" lightline for statusline and tabline
 let g:lightline = {
       \ 'colorscheme': 'PaperColor_light',
       \ 'active': {
@@ -84,6 +116,7 @@ function! LightlineFilename()
     return filename . modified
 endfunction
 
+" ctrlp
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'ca'
@@ -105,7 +138,7 @@ if has("autocmd")
     au VimLeave * silent execute '!echo -ne "\e[ q"' | redraw!
 endif
 
-" delay back to normal
+" configuration for fasting a delay back to normal " or go fast to esc 
 if ! has('gui_running')
     set ttimeoutlen=10
     augroup FastEscape
@@ -114,10 +147,6 @@ if ! has('gui_running')
       au InsertLeave * set timeoutlen=0
     augroup END
 endif
-
-map <Leader> <Plug>(easymotion-prefix)
-silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
-nnoremap <leader>ri :RunInInteractiveShell<space>
 
 " vim shell
 let g:vimshell_prompt="→ "
@@ -135,11 +164,20 @@ let g:syntastic_ruby_checkers=['rubocop']
 let g:syntastic_error_symbol = '⦿'
 " let g:syntastic_warning_symbol = '😑'
 let g:syntastic_warning_symbol = '⦿'
-" highlight SyntasticErrorLine guifg=blue guibg=white gui=bold
-" highlight SyntasticStyleErrorLine guifg=blue guibg=white gui=bold
-" highlight SyntasticError guifg=blue guibg=white gui=bold
-" highlight SyntasticStyleError guifg=blue guibg=white gui=bold
-" highlight SyntasticWarningLine guifg=blue guibg=white gui=bold
-" highlight SyntasticStyleWarningLine guifg=blue guibg=white gui=bold
-" highlight SyntasticWarning guifg=blue guibg=white gui=bold
-" highlight SyntasticStyleWarning guifg=blue guibg=white gui=bold
+highlight SyntasticErrorLine guifg=blue guibg=white gui=bold
+highlight SyntasticStyleErrorLine guifg=blue guibg=white gui=bold
+highlight SyntasticError guifg=blue guibg=white gui=bold
+highlight SyntasticStyleError guifg=blue guibg=white gui=bold
+highlight SyntasticWarningLine guifg=blue guibg=white gui=bold
+highlight SyntasticStyleWarningLine guifg=blue guibg=white gui=bold
+highlight SyntasticWarning guifg=blue guibg=white gui=bold
+highlight SyntasticStyleWarning guifg=blue guibg=white gui=bold
+
+" other configuration
+silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
+
+" indentline character
+let g:indentLine_enabled = 0
+let g:indentLine_char = '⎢'
+let g:indentLine_leadingSpaceChar = '𝅉'
+let g:indentLine_leadingSpaceEnabled = 0

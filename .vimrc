@@ -13,7 +13,8 @@ set directory=~/.vim/.swp//
  
 set number                    " show numbering
 set numberwidth=1
-set laststatus=2
+set laststatus=2              " 0: disable | 1: only if have more than one window | 2: always show statusline
+set showtabline=2             " 0: disable | 1: only if have more than one window | 2: always show tabline
 set t_Co=256                  " use 256 kind of color
 set noshowmode
 " set autoread                " reload when file change outside vim
@@ -34,7 +35,7 @@ set ignorecase                " make searching not case sensitive
 set hlsearch                  " highlight all result of searching
 
 " split
-" set splitbelow 
+set splitbelow 
 set splitright
 
 " tab
@@ -66,6 +67,8 @@ let mapleader = ","
 nnoremap <F3> :set relativenumber!<CR>
 nnoremap <F4> :IndentLinesToggle<CR>:LeadingSpaceToggle<CR>
 nnoremap <F5> :NERDTreeToggle<CR>
+nnoremap <F6> :TagbarToggle<CR>
+nnoremap <F7> :VimShellPop<CR>
 nmap <C-h> <C-w><C-h>
 nmap <C-j> <C-w><C-j>
 nmap <C-k> <C-w><C-k>
@@ -76,6 +79,7 @@ nnoremap <leader>k :tabnext<CR>
 nnoremap <leader>j :tabprevious<CR>
 nnoremap <leader><space> :nohlsearch<CR>
 nnoremap <leader><tab> :tabedit<space>
+nnoremap <leader>v :set paste!<CR>
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -87,9 +91,10 @@ call vundle#begin()
 Bundle 'edkolev/tmuxline.vim'
 Bundle 'christoomey/vim-run-interactive'
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'ChesleyTan/wordCount.vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'NLKNguyen/papercolor-theme'
-Plugin 'drmingdrmer/vim-tabbar'
+" Plugin 'drmingdrmer/vim-tabbar'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'scrooloose/nerdtree'
@@ -124,18 +129,25 @@ let g:lightline = {
       \ 'colorscheme': 'PaperColor_light',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'readonly', 'filename' ] ],
-      \ },
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ],
+      \   'right': [ [ 'lineinfo', 'percent' ],
+      \              [ 'size', 'worc'],
+      \              [ 'fileformat', 'fileencoding', 'filetype', ] ],
       \ 'component_function': {
-      \   'filename': 'LightlineFilename',
+      \   'gitbranch': 'fugitive#head',
+      \   'llast': 'LastLine',
+      \ },
       \ },
       \ }
 
-function! LightlineFilename()
-    let filename = expand('%:t') !=# '' ? expand('%:t') : '[No Name]'
-    let modified = &modified ? ' +' : ''
-    return filename . modified
-endfunction
+     " \ 'component_function': {
+      " \   'filename': 'lightlinefilename',
+      " \ },
+" function! LightlineFilename()
+"     let filename = expand('%:t') !=# '' ? expand('%:t') : '[No Name]'
+"     let modified = &modified ? ' +' : ''
+"     return filename . modified
+" endfunction
 
 " ctrlp
 let g:ctrlp_map = '<c-p>'

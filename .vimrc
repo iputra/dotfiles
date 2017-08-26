@@ -5,11 +5,18 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 syntax on
 
+set undodir=~/.vim/.undo//
+set backupdir=~/.vim/.backup//
+set directory=~/.vim/.swp//
+" set nobackup
+" set noswapfile
+ 
 set number                    " show numbering
 set numberwidth=1
 set laststatus=2
 set t_Co=256                  " use 256 kind of color
 set noshowmode
+" set autoread                " reload when file change outside vim
 
 " scheme vim
 set background=dark           " you can set light or dark
@@ -26,11 +33,36 @@ set incsearch                 " auto searching without pressing enter
 set ignorecase                " make searching not case sensitive
 set hlsearch                  " highlight all result of searching
 
+" split
+" set splitbelow 
+set splitright
+
+" tab
+set expandtab                   " Convert tabs into spaces
+set softtabstop=4               " when editing
+set smarttab
+set laststatus=2
+set tabstop=4                   " auto indent
+set shiftwidth=4                " number space when tab keystrokes pressed
+
+" C language 
+autocmd Filetype c 
+            \set makeprg=gcc\ -o\ %<\ %
+autocmd Filetype c nnoremap <buffer> <F9> :Make<CR>
+" autocmd Filetype c nnoremap <buffer> <F9> :w<CR>:!gcc % -o %< && ./%<<CR>
+autocmd Filetype ruby nnoremap <buffer> <F9> :w<CR>:!ruby %<CR>
+autocmd Filetype ruby setlocal shiftwidth=2 tabstop=2
+              
 " leader mapping
 " change \ to ,
 let mapleader = ","
 
 " mapping keyboard
+" map send key to command mode
+" nnoremap mapping when normal mode
+" inoremap mapping when insert mode
+" vnoremap mapping when visual mode
+" nb. if any error happen, it may cause there some char like space on EOL
 nnoremap <F3> :set relativenumber!<CR>
 nnoremap <F4> :IndentLinesToggle<CR>:LeadingSpaceToggle<CR>
 nnoremap <F5> :NERDTreeToggle<CR>
@@ -43,18 +75,7 @@ nnoremap <leader>ri :RunInInteractiveShell<space>
 nnoremap <leader>k :tabnext<CR>
 nnoremap <leader>j :tabprevious<CR>
 nnoremap <leader><space> :nohlsearch<CR>
-
-" split
-" set splitbelow 
-set splitright
-
-" tab
-set expandtab                   " Convert tabs into spaces
-set softtabstop=4               " when editing
-set smarttab
-set laststatus=2
-set tabstop=4
-set shiftwidth=2
+nnoremap <leader><tab> :tabedit<space>
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -152,26 +173,26 @@ endif
 let g:vimshell_prompt="→ "
 
 " syntastic
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_ruby_checkers=['rubocop']
-" let g:syntastic_error_symbol = '😠'
-let g:syntastic_error_symbol = '⦿'
-" let g:syntastic_warning_symbol = '😑'
-let g:syntastic_warning_symbol = '⦿'
-highlight SyntasticErrorLine guifg=blue guibg=white gui=bold
-highlight SyntasticStyleErrorLine guifg=blue guibg=white gui=bold
-highlight SyntasticError guifg=blue guibg=white gui=bold
-highlight SyntasticStyleError guifg=blue guibg=white gui=bold
-highlight SyntasticWarningLine guifg=blue guibg=white gui=bold
-highlight SyntasticStyleWarningLine guifg=blue guibg=white gui=bold
-highlight SyntasticWarning guifg=blue guibg=white gui=bold
-highlight SyntasticStyleWarning guifg=blue guibg=white gui=bold
+" set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%*
+"
+" let g:syntastic_always_populate_loc_list = 1
+" let g:syntastic_auto_loc_list = 1
+" let g:syntastic_check_on_open = 1
+" let g:syntastic_check_on_wq = 0
+" let g:syntastic_ruby_checkers=['rubocop']
+" " let g:syntastic_error_symbol = '😠'
+" let g:syntastic_error_symbol = '⦿'
+" " let g:syntastic_warning_symbol = '😑'
+" let g:syntastic_warning_symbol = '⦿'
+" highlight SyntasticErrorLine guifg=blue guibg=white gui=bold
+" highlight SyntasticStyleErrorLine guifg=blue guibg=white gui=bold
+" highlight SyntasticError guifg=blue guibg=white gui=bold
+" highlight SyntasticStyleError guifg=blue guibg=white gui=bold
+" highlight SyntasticWarningLine guifg=blue guibg=white gui=bold
+" highlight SyntasticStyleWarningLine guifg=blue guibg=white gui=bold
+" highlight SyntasticWarning guifg=blue guibg=white gui=bold
+" highlight SyntasticStyleWarning guifg=blue guibg=white gui=bold
 
 " other configuration
 silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)

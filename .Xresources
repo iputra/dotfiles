@@ -1,0 +1,89 @@
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+! Use extended color scheme
+rofi.color-enabled:                  true
+! Color scheme for normal row
+rofi.color-normal:                   #ffffff,#525d76,#f5f5f5,#5294e2,#ffffff
+! Color scheme for urgent row
+rofi.color-urgent:                   #ffffff,#dc322f,#f5f5f5,#5294e2,#dc322f
+! Color scheme for active row
+rofi.color-active:                   #ffffff,#c2cad0,#f5f5f5,#5294e2,#c2cad0
+! Color scheme window
+rofi.color-window:                   #ffffff,#f5f5f5
+! Separator style (none, dash, solid)
+! rofi.separator-style:                solid
+!
+! URxvt.background: #1F1D19
+! URxvt.foreground: #DEDEDE
+URxvt.scrollBar: false
+URxvt*iso14755: false
+URxvt.perl-ext-common: default,clipboard
+URxvt.clipboard.autocopy: true
+URxvt.keysym.M-c:   perl:clipboard:copy
+URxvt.keysym.M-v:   perl:clipboard:paste
+URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+
+! URxvt.font: xft:DejaVu Sans Mono:pixelsize=12:antialias=true:hinting=true
+URxvt.font: xft:Fira Code Medium:size=11
+*.cursorBlink: true
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintfull
+
+! special
+*.foreground:   #98d1ce
+*.background:   #0a0f14
+*.cursorColor:  #98d1ce
+
+! black
+*.color0:       #0a0f14
+*.color8:       #4e5165
+
+! red
+*.color1:       #ff0000
+*.color9:       #fa2772
+
+! green
+*.color2:       #5dff00
+*.color10:      #00ff00
+
+! yellow
+*.color3:       #d26939
+*.color11:      #e4723e
+
+! blue
+*.color4:       #14a95b
+*.color12:      #007aff
+
+! magenta
+*.color5:       #4e5165
+*.color13:      #888ba5
+
+! cyan
+*.color6:       #00b188
+*.color14:      #599caa
+
+! white
+*.color7:       #98d1ce
+*.color15:      #d3ebe9
+
+! 0 = 
+! 1 = 
+! 2 = hostname
+! 3 = apt update command
+! 4 = 
+! 5 = 
+! 6 = username
+! 7 = 
+! 8 = suggestion 
+! 9 = command
+! 10 = executable file
+! 11 = ~ tilde color
+! 12 = # dan dir
+! 13 = 
+! 14 = 
+! 15 = 
+

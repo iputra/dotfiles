@@ -17,6 +17,7 @@ set laststatus=2              " 0: disable | 1: only if have more than one windo
 set showtabline=2             " 0: disable | 1: only if have more than one window | 2: always show tabline
 set t_Co=256                  " use 256 kind of color
 set noshowmode
+set showcmd
 " set autoread                " reload when file change outside vim
 
 " scheme vim
@@ -46,40 +47,16 @@ set laststatus=2
 set tabstop=4                   " auto indent
 set shiftwidth=4                " number space when tab keystrokes pressed
 
-" C language 
-autocmd Filetype c 
-            \set makeprg=gcc\ -o\ %<\ %
-autocmd Filetype c nnoremap <buffer> <F9> :Make<CR>
-" autocmd Filetype c nnoremap <buffer> <F9> :w<CR>:!gcc % -o %< && ./%<<CR>
-autocmd Filetype ruby nnoremap <buffer> <F9> :w<CR>:!ruby %<CR>
-autocmd Filetype ruby setlocal shiftwidth=2 tabstop=2
-              
-" leader mapping
-" change \ to ,
-let mapleader = ","
+" change cursor shape
+let &t_SI="\033[5 q"
+let &t_EI="\033[1 q"
 
-" mapping keyboard
-" map send key to command mode
-" nnoremap mapping when normal mode
-" inoremap mapping when insert mode
-" vnoremap mapping when visual mode
-" nb. if any error happen, it may cause there some char like space on EOL
-nnoremap <F3> :set relativenumber!<CR>
-nnoremap <F4> :IndentLinesToggle<CR>:LeadingSpaceToggle<CR>
-nnoremap <F5> :NERDTreeToggle<CR>
-nnoremap <F6> :TagbarToggle<CR>
-nnoremap <F7> :VimShellPop<CR>
-nmap <C-h> <C-w><C-h>
-nmap <C-j> <C-w><C-j>
-nmap <C-k> <C-w><C-k>
-nmap <C-l> <C-w><C-l>
-map <Leader> <Plug>(easymotion-prefix)
-nnoremap <leader>ri :RunInInteractiveShell<space>
-nnoremap <leader>k :tabnext<CR>
-nnoremap <leader>j :tabprevious<CR>
-nnoremap <leader><space> :nohlsearch<CR>
-nnoremap <leader><tab> :tabedit<space>
-nnoremap <leader>v :set paste!<CR>
+" C language 
+autocmd Filetype c nnoremap <buffer> <F9> :w<CR>:silent !tmux send-keys -t 2 'gcc % -o %<; %<' enter<CR>:source $MYVIMRC<CR>
+" autocmd Filetype c nnoremap <buffer> <F9> :w<CR>:silent !tmux split-window -h -d -t 1 'gcc % -o %<; ./%<; read'<CR>
+" autocmd Filetype c nnoremap <buffer> <F9> :w<CR>:!gcc % -o %< && ./%<<CR>
+autocmd Filetype ruby nnoremap <buffer> <F9> :w<CR>:silent !tmux send-keys -t 2 'ruby %' enter<CR>:source $MYVIMRC<CR>
+autocmd Filetype ruby setlocal shiftwidth=2 tabstop=2
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -118,9 +95,41 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'hzchirs/vim-material'
 Plugin 'Yggdroot/indentLine'
 Plugin 'majutsushi/tagbar'
+Plugin 'joonty/vdebug'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+" leader mapping
+" change \ to ,
+let mapleader = ","
+
+" mapping keyboard
+" map send key to command mode
+" nnoremap mapping when normal mode
+" inoremap mapping when insert mode
+" vnoremap mapping when visual mode
+" nb. if any error happen, it may cause there some char like space on EOL
+nnoremap <F2> :set paste!<CR>
+nnoremap <F3> :set relativenumber!<CR>
+nnoremap <F4> :IndentLinesToggle<CR>:LeadingSpaceToggle<CR>
+nnoremap <F5> :NERDTreeToggle<CR>
+nnoremap <F6> :TagbarToggle<CR>
+nnoremap <F7> :VimShellPop<CR>
+nmap <C-h> <C-w><C-h>
+nmap <C-j> <C-w><C-j>
+nmap <C-k> <C-w><C-k>
+nmap <C-l> <C-w><C-l>
+map <Leader> <Plug>(easymotion-prefix)
+nnoremap <leader>ri :RunInInteractiveShell<space>
+nnoremap <leader>k :tabnext<CR>
+nnoremap <leader>j :tabprevious<CR>
+nnoremap <leader><space> :nohlsearch<CR>
+nnoremap <leader><tab> :tabedit<space>
+nnoremap <Up> :!spd-say "cupu lu woii"<CR><CR>
+nnoremap <Down> :!spd-say "cupu lu woii"<CR><CR>
+nnoremap <Right> :!spd-say "cupu lu woii"<CR><CR>
+nnoremap <Left> :!spd-say "cupu lu woii"<CR><CR>
 
 " CONFIGURATION
 
@@ -164,7 +173,7 @@ if has("autocmd")
   au VimEnter,InsertLeave * silent execute '!echo -ne "\e[2 q"' | redraw!
     au InsertEnter,InsertChange *
         \ if v:insertmode == 'i' | 
-        \   silent execute '!echo -ne "\e[6 q"' | redraw! |
+        \   silent execute '!echo -ne "\e[5 q"' | redraw! |
         \ elseif v:insertmode == 'r' |
         \   silent execute '!echo -ne "\e[4 q"' | redraw! |
         \ endif
